@@ -13,7 +13,7 @@ const AnimalsInHTML = () => {
      * changed the content of the map function
      **/
     animals.map((singleAnimal, i) => {
-      return <li>hello</li>;
+      return <li key={i}>{singleAnimal.label}</li>;
     })
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react'
 import AnimalsInHTML from './components/AnimalsInHTML'
 
+
 const App = () => {
     return (
         <>
